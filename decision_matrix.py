@@ -44,6 +44,7 @@ def decision_matrix_variable(*args):
     # output the result
     return output
 
+   # OLD Decision matrix with fixed input
 def decision_matrix_count(sic_name, url, name, intro, wbs, intro_cross, wbs_cross, intro_30, wbs_30, intro_cross_30, wbs_cross_30):
     vals= []
     for i in range(len(sic_name)):
@@ -89,67 +90,3 @@ def decision_matrix_count(sic_name, url, name, intro, wbs, intro_cross, wbs_cros
         output =['']
     return output
 
-#ut = decision_matrix_count(test0, test0, test0, test0, test0, test0, test0)
-#print(ut)
-#sys.exit()
-
-#def decision_matrix(url, name, sic, intro_max, wbs_max,  test):
-
-    # so the input are the various scores and evaluated
-    # url and name are classified by a score
-    # while the others are percentage
-
-        ##### first issue how to identify then the result of the category ###
-#    id0 = 'Recruitment'
-#    id1 = 'ISV'
-#    id2 = 'MSP'
-#    id3 = 'Telco'
-#    id4 = 'Vendor'
-#    id5 = 'Reseller'
-#    id6 = 'CloudConsultant'
-#    id7 = 'DigitalAgency'
-#    id8 = 'ManagedService'
-#    id9 = 'Distributor'
-#    id10 = 'Outsourcerer'
-
-
-
-    #### check url
-    #### with this it's normalized to 10, so if the score was 100 now it's 10. or 25, 33...
- #   if url == []:
- #       url_value = 0.
-
- #   if url != []:
- #       url_value = np.float(url[0])/10.
-
-    ##### check name
- #   if name == []:
-  #      name_value = 0.
-
- #   if name != []:
- #       name_value = np.float(name[0])/10.
-
- #   sic_value = np.float(sic)
-
-    #### watch out on the type of the data in.
-
- #   if intro_max != []:
- #       intro_value = np.float(intro_max[0])/10.
- #   if intro_max == []:
- #       intro_value = 0.
-
- #   if wbs_max != []:
- #       wbs_value = np.float(wbs_max[0])/10.
- #   if wbs_max == []:
- #       wbs_value = 0.
-
-#    print(url_value, name_value, sic_value, intro_value, wbs_value)
-
-#name =[]
-#intro_max = [58.65624918,58.65624918]
-#wbs_max = [58.65624918, 58.65624918]
-#sic = 5.0
-#decision_matrix(url,name, sic,intro_max,wbs_max,   test)
-#url=[25.0]
-#name=[25.0]
-#decision_matrix(url,name, sic, intro_max, wbs_max,  test)
