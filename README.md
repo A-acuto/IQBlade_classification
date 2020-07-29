@@ -26,3 +26,4 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Decision Matrix
 * Tools  # Common tools used in different codes
 * most_frequent_words_analyzer # introduction based most frequent words analyzer
+* Webscraper from URL # Adapted from Sadie's code to work in Python 3.5 (only the f-string changed)
