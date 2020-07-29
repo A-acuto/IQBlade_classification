@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 import csv
 from numpy import inf
 import pickle
+from collections import Counter
+import re
+import glob
+
 # Natural language processing
 import nltk
 from nltk.corpus.reader.plaintext import PlaintextCorpusReader
@@ -11,11 +15,11 @@ from nltk.corpus  import stopwords
 from nltk.stem  import PorterStemmer
 from nltk.stem  import WordNetLemmatizer
 from nltk.util import ngrams
-from collections import Counter
-import re
-import glob
+
+# local codes
 from usefull_tools import *
-from datasets import *
+from datasets import *   # here are all the sets of words used for cleaning
+
 # load the data directory with your pathline
 ### data_dir ####
 
