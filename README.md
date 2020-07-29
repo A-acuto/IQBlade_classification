@@ -14,6 +14,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * re
 * NLTK (natural language toolkit)
 * beatifoul soup
+* requests
 
 # Data handler
 * CSV
