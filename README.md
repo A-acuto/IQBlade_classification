@@ -18,7 +18,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 # Data handler
 * CSV
-* piclke
+* pickle
 * JSON
 * numpy
 
