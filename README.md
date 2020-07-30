@@ -29,7 +29,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Webscraper from URL # Adapted from Sadie's code to work in Python 3.5 (only the f-string changed)
 * most_frequent_words_analyzer_url  
 * sic_code_score 
-* url_name_score
+* url_name_score # URL and NAME scorer and flag tag checker
  
 # CODES DESCRIPTION Details
 
