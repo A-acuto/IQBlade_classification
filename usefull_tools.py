@@ -68,3 +68,20 @@ def clean_url_name(url):
     clean_7 = clean_6.replace('.net', ' ')
     clean_8 = clean_7.replace('.uk', ' ')
     return clean_8
+
+def type_comp_max(id):
+    # Code that associates the tag at the maximum value from URL and NAME scoring
+    id = np.asarray(id)
+
+    # must keep this order or change also the order of the loaded companies in the scoring code
+    company_type = ['Recruitment', 'ISV', 'Telco', 'Vendor', 'CloudConsultant',
+                    'ManagedServices', 'MSP', 'DigitalAgency', 'Reseller',
+                    'Distributor', 'Outsourcer']
+    ctype =[]
+
+    for icompany in range(11):
+        if any(id == icompany):
+            ctype.append(company_type[icompany])
+
+    # output company score flag
+    return ctype
