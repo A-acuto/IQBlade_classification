@@ -54,3 +54,17 @@ def return_indices_of_a(a, b):
     
   b_set = set(b)
   return [i for i, v in enumerate(a) if v in b_set]
+
+def clean_url_name(url):
+    #cleaning process to get only the url-core without https/ and domains.
+    clean_0 = url.replace('http://www.', ' ')
+    clean_05 = clean_0.replace('https://www.', ' ')
+    clean_1 = clean_05.replace('.co.uk', ' ')
+    clean_2 = clean_1.replace('.org.uk', ' ')
+    clean_3 = clean_2.replace('.com', ' ')
+    clean_4 = clean_3.replace('.it', ' ')
+    clean_5 = clean_4.replace('.co', ' ')
+    clean_6 = clean_5.replace('.org', ' ')
+    clean_7 = clean_6.replace('.net', ' ')
+    clean_8 = clean_7.replace('.uk', ' ')
+    return clean_8
