@@ -47,3 +47,10 @@ def checkIfAny(mainStr, listOfStr):
        if subStr in mainStr:
            return (subStr)
    return (" ")
+
+def return_indices_of_a(a, b):
+  # this returns the indeces of the matched lists
+  # it is fundamental for the URL-NAMES scoring because it can provide the right weight for each word easily
+    
+  b_set = set(b)
+  return [i for i, v in enumerate(a) if v in b_set]
