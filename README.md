@@ -29,7 +29,8 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Webscraper from URL # Adapted from Sadie's code to work in Python 3.5 (only the f-string changed)
 * most_frequent_words_analyzer_url  
 * sic_code_score 
-
+* url_name_score
+ 
 # CODES DESCRIPTION Details
 
 * Tools: here are the quick functions that might be useful in many other different codes: as finding the index of unique elements in arrays or dataframes, verify the presence of sbstrings in strings for classification of names and urls. In general it is called in every other main codes for reference.
@@ -37,4 +38,6 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Webscraper from URL: code that pulls requests to get text directly from websites. It is an adapted version of Sadie's webscraper to match the Python version.
 
 * sic_code_score : sic code scorer that identifies if a sic code belongs to an enduser or to a classified company. The sic codes provided are at least the 5% of the classified companies in the database. It provides the associated tag and it is used for the Main and Decision Matrix. It needs the file Datasets (for the enduser sic codes)
+
+* url_name_score
 
