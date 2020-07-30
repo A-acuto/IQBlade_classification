@@ -86,3 +86,40 @@ def score_url_name(url, name):
 
 
     return score_url, score_name
+
+def check_score(score_url, score_name):
+    # inputs score URL and score name
+
+    score_url_per = []
+    score_url_tag = []
+    score_name_per = []
+    score_name_tag = []
+
+    ids = np.where(score_url > 1)[0]
+    # counts where it is above 1 (the scoring it's 1+score)
+    if len(ids)>= 1:
+        vmax = np.max(score_url[ids])
+        # finds the maximum
+        id_max = np.where(score_url == vmax)[0]
+
+        # evaluates the percentage of match based on the previous score
+        perc_val = (vmax-1.)*100
+        score_url_per.append(perc_val)
+
+        # type_comp_max is a function that given the maximum in a certain position
+        # it matched the company type. That function is in tools repository
+        score_url_tag.append(type_comp_max(np.asarray(id_max)))
+
+    idn = np.where(score_name > 1.)[0]
+    # same as URL
+    if len(idn)>= 1:
+        vmax = np.max(score_name[idn])
+        print(vmax)
+        id_max = np.where(score_name == vmax)[0]
+        print(id_max)
+        perc_val = (vmax-1.)*100
+        score_name_per.append(perc_val)
+
+        score_name_tag.append(type_comp_max(np.asarray(id_max)))
+
+    return score_url_per, score_url_tag, score_name_per, score_name_tag
