@@ -31,6 +31,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * sic_code_score 
 * url_name_score # URL and NAME scorer and flag tag checker
 * cleaning_text # code that cleans the introduction and webscraped text
+* score_intro_sic_codes 
  
 # CODES DESCRIPTION Details
 
@@ -43,6 +44,8 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * url_name_score: the first part of the code creates the way to score the name and url of companies and then provides a scoring for each category for those. The second part instead matches the score with the company tag.
 
 * cleaning_text: function that cleans the introduction and text scraped from website it is used in the cleaning process of the main and for URL scoring. It needs dataset because there are loaded the stopwords used to clean.
+
+* score_intro_sic_code : this is the scoring system for introduction (and later in the cross validation for webscraped text) divided by company types and sic codes. This need the datasets present in the file to create the matches. The logic behind is very close to the url_name_score.
 
 * Main code
 
