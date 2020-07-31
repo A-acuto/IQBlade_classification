@@ -105,6 +105,21 @@ def type_comp_max_intro(id):
 #
     return ctype
 
+# For webtext
+def type_comp_max_web_text(id):
+    id = np.asarray(id)
+
+    company_type =['Recruitment', 'ISV', 'Distributor', 'Outsourcer', 'Reseller',
+                   'DigitalAgency', 'MSP', 'CloudConsultant', 'ManagedServices',
+                   'Vendor', 'Telco']
+    ctype =[]
+
+    for icompany in range(len(company_type)):
+        if any(id == icompany):
+            ctype.append(company_type[icompany])
+            
+    return ctype
+
 def check_score_intro(flags):
 
     score_max_per = []
