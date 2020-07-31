@@ -85,3 +85,22 @@ def type_comp_max(id):
 
     # output company score flag
     return ctype
+
+# For introduction scoring
+def type_comp_max_intro(id):
+    id = np.asarray(id)
+    ### this is matched with intro score that's why we have so many company repetitions
+    company_type =['Recruitment', 'Recruitment', 'ISV', 'ISV', 'ISV','ISV',
+                   'Vendor', 'Vendor', 'Vendor', 'CloudConsultant',
+                   'CloudConsultant', 'CloudConsultant', 'MSP', 'MSP',
+                   'ManagedServices', 'ManagedServices', 'ManagedServices',
+                   'Telco', 'Telco', 'DigitalAgency', 'DigitalAgency', 'DigitalAgency',
+                   'DigitalAgency', 'Distributor', 'Distributor', 'Reseller', 'Reseller',
+                   'Reseller', 'Reseller', 'Outsourcer', 'Outsourcer', 'Outsourcer']
+    ctype =[]
+
+    for icompany in range(len(company_type)):
+        if any(id == icompany):
+            ctype.append(company_type[icompany])
+#
+    return ctype
