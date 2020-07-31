@@ -4,7 +4,7 @@ from pandas.core.common import flatten
 from datasets import *
 from usefull_tools import *
 
-def multi_scoring_complex(tokens):
+def score_intro_sic_codes(tokens):
 
     # loaded datasets of common words #
 
