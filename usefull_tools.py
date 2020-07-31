@@ -104,3 +104,88 @@ def type_comp_max_intro(id):
             ctype.append(company_type[icompany])
 #
     return ctype
+
+def check_score_intro(flags):
+
+    score_max_per = []
+    score_max_tag = []
+    score_30_per = []
+    score_30_tag = []
+
+    max_val = np.max(flags)
+
+    if max_val > 0.:
+        count = np.where(flags == max_val)[0]
+
+        if len(count) < 20 :
+
+            id_max = np.where(flags == max_val)[0]
+
+            # this is for getting the least likely result
+            min_30 = max_val- max_val*0.25
+
+            id_most_l = np.where(flags >= min_30)[0]
+            id_most_m = np.where(flags < max_val)[0]
+            id_most = np.intersect1d(id_most_l, id_most_m)
+
+            score_max_per.append(flags[id_max])
+            score_30_per.append(flags[id_most])
+            # here I have added the maximum percentage
+            score_max_tag.append(type_comp_max_intro(np.asarray(id_max)))
+            score_30_tag.append(type_comp_max_intro(np.asarray(id_most)))
+            # here I have instead added the flags
+
+        else :
+            score_max_per.append(' ')
+            score_30_per.append(' ')
+            score_max_tag.append('0')
+            score_30_tag.append('2')
+
+    else:
+
+        score_max_per.append(' ')
+        score_30_per.append(' ')
+        score_max_tag.append('x')
+        score_30_tag.append('2')
+
+    return score_max_per, score_max_tag, score_30_per, score_30_tag
+
+def check_score_web_text(flags):
+
+    score_max_per = []
+    score_max_tag = []
+    score_30_per = []
+    score_30_tag = []
+
+    max_val = np.max(flags)
+
+    if max_val > 0. :
+        count = np.where(flags == max_val)[0]
+
+        if len(count) < 8:
+
+            id_max = np.where(flags == max_val)[0]
+
+            min_30 = max_val - max_val * 0.25
+            id_most_l = np.where(flags >= min_30)[0]
+            id_most_m = np.where(flags < max_val)[0]
+            id_most = np.intersect1d(id_most_l, id_most_m)
+
+            score_max_per.append(flags[id_max])
+            score_30_per.append(flags[id_most])
+            score_max_tag.append(type_comp_max_web_text(np.asarray(id_max)))
+            score_30_tag.append(type_comp_max_web_text(np.asarray(id_most)))
+
+        else :
+            score_max_per.append(' ')
+            score_30_per.append(' ')
+            score_max_tag.append('0')
+            score_30_tag.append('1')
+
+    else :
+        score_max_per.append(' ')
+        score_30_per.append(' ')
+        score_max_tag.append('Y')
+        score_30_tag.append('1')
+
+    return score_max_per, score_max_tag, score_30_per, score_30_tag
