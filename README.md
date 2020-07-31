@@ -30,6 +30,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * most_frequent_words_analyzer_url  
 * sic_code_score 
 * url_name_score # URL and NAME scorer and flag tag checker
+* cleaning_text # code that cleans the introduction and webscraped text
  
 # CODES DESCRIPTION Details
 
@@ -40,6 +41,8 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * sic_code_score : sic code scorer that identifies if a sic code belongs to an enduser or to a classified company. The sic codes provided are at least the 5% of the classified companies in the database. It provides the associated tag and it is used for the Main and Decision Matrix. It needs the file Datasets (for the enduser sic codes)
 
 * url_name_score: the first part of the code creates the way to score the name and url of companies and then provides a scoring for each category for those. The second part instead matches the score with the company tag.
+
+* cleaning_text: function that cleans the introduction and text scraped from website it is used in the cleaning process of the main and for URL scoring. It needs dataset because there are loaded the stopwords used to clean.
 
 * Main code
 
