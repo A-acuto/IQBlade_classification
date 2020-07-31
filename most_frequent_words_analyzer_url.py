@@ -1,14 +1,12 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from tools import *
+from usefull_tools import *
 import csv
-import random
-from recommendation_system_toy import *
-import sys
+import JSON
 from pandas.core.common import flatten
 from webscraper import *
-from recommendation_system_toy import *
+from cleaning_text import *
 
 # the basic idea is the same as the INTRO analizer cfr. most_frequent_words_analyzer.py
 # but here we use the webscraper to call from the website URL and then use it to analyze it
@@ -70,7 +68,7 @@ for i in range(len(Company_url)):
     text_decoded = text.decode(encoding='UTF-8',errors='strict')
 
     # Cleaning process
-    tokens = clean_text(text_decoded)
+    tokens = cleaning_text(text_decoded)
 
     # add the tokens in a list
     all_tks.append(list(flatten(tokens)))
