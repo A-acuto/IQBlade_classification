@@ -16,8 +16,6 @@ def multi_scoring_complex(tokens):
                       pool_reseller_0, pool_reseller_1, pool_reseller_2, pool_reseller_3, pool_outsourcer_0,
                       pool_outsourcer_1, pool_outsourcer_2, pool_outsourcer_3]
 
-    print(len(table_of_pool_words))
-
     # transfrom the words in to dataframe
     words_dataframe = pd.DataFrame(table_of_pool_words)
 
