@@ -41,4 +41,5 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 * url_name_score: the first part of the code creates the way to score the name and url of companies and then provides a scoring for each category for those. The second part instead matches the score with the company tag.
 
+* Main code
 
