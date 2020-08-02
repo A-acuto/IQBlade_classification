@@ -33,6 +33,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * cleaning_text # code that cleans the introduction and webscraped text
 * score_intro_sic_codes 
 * score_web_text
+* classification_main
  
 # CODES DESCRIPTION Details
 
@@ -50,5 +51,5 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 * score_web_text : as the score intro, but it uses the text scraped form websites for calibration. 
 
-* Main code
+* Main code code included
 
