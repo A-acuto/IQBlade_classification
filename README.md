@@ -1,6 +1,7 @@
 # IQBlade_classification
 IQBlade classification tools 
 
+The python version in 2.7, the interpreter was 3.5 but it's all built in with that. Need to rework a couple of things.
 Python version 3.5, should be compatible with 3.6+ versions. Should also work properly in non-windows environment.
 
 
