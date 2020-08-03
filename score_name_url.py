@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
-from usefull_tools import *
 from pandas.core.common import flatten
+
+from usefull_tools import *
 from datasets import *
 
 
