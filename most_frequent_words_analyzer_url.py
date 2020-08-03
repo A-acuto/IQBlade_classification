@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import csv
-import JSON
+import json
 from pandas.core.common import flatten
 
 from webscraper import *
