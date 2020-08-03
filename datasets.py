@@ -66,9 +66,9 @@ MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 
 MS_title_words = ['it', 'data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
 DA_title_words = ['digital', 'web', 'influence', 'soft', 'internet', 'social', 'smart', 'data', 'media', 'creat',
                   'tel', 'tech', 'seo', 'design', 'agency'] # DigitalAgency
-RS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Reseller
-DS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Distributor
-OS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Outsourcer
+RS_title_words = ['tech', 'net', 'solution', 'compu', 'intel', 'data', 'sol', 'soft'] # Reseller
+DS_title_words = ['tech', 'logic',  'data', 'solut', 'dist'] # Distributor
+OS_title_words = ['tech', 'intel', 'consult', 'compu', 'solut', 'data', 'soft', 'web'] # Outsourcer
 
 ##### INTRO - SIC divided common words  for code SCORE_INTRO_SIC_CODES.py #####
 
