@@ -8,12 +8,17 @@ Python version 3.5, should be compatible with 3.6+ versions. Should also work pr
 The codes available are the text analizer code from introduction (from IQBlade database) and the URL scraped text.
 Then the classification and scoring by SIC codes, names, url, introduction and url.
 
+# updates
+
+Now compatible with Linux and other environments using os to complete the directory and file paths.
+
 # Required packages:
+* os 
 * Numpy
 * Pandas
 * Matplotlib
 * re
-* NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code - VERSION 3.4.5 Install with that do not break REGEX and friends alike
+* NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code - VERSION == 3.4.5 to work on python 2.7 
 * beatifoul soup
 * requests
 
