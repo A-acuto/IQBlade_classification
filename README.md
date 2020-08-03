@@ -13,7 +13,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Pandas
 * Matplotlib
 * re
-* NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code
+* NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code - VERSION 3.4.5 Install with that do not break REGEX and friends alike
 * beatifoul soup
 * requests
 
