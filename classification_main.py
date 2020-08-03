@@ -5,6 +5,7 @@ import sys
 import csv
 import json
 
+# code available
 from webscraper import *
 from score_name_url import *
 from decision_matrix import *
@@ -96,27 +97,34 @@ for i in range(len(sic_codes)):
         wbs_tokens = clean_text(wb_text)
 
         tokens_web = list(flatten(wbs_tokens))
-        flags_web = score_web_text(tokens_wev)
+        flags_web = score_web_text(tokens_web)
 
         #### CROSS validation ####
+        # Use the text from introduction in the web defined classes and use the web text
+        # in the introduction defined classes
 
         flags_intro_cross = score_intro_sic_codes(tokens)
 
-        flags_wbs_cross = score_web_text(tokens_2)
+        flags_wbs_cross = score_web_text(tokens_web)
 
+        # scoring check for introduction, web text, and cross validation #
+        # the output are the max value and the 20% likely from the maximum #
         perc_max_intro, max_rag_intro, perc_30_intro, tag_30_intro = check_score_intro(flags_intro)
 
-        perc_max_wbs, max_rag_wbs, perc_30_wbs, tag_30_wbs = check_score_web_text(flags_wbs)
+        perc_max_wbs, max_rag_wbs, perc_30_wbs, tag_30_wbs = check_score_web_text(flags_web)
 
         perc_max_intro_co, max_rag_intro_co, perc_30_intro_co, tag_30_intro_co = check_score_intro(flags_wbs_cross)
 
         perc_max_wbs_co, max_rag_wbs_co, perc_30_wbs_co, tag_30_wbs_co = check_score_web_text(flags_intro_cross)
 
+        # either here or later on we can add an economics module to help disentangle the non unique values 
         feed_matrix = []
         feed_matrix = tag+ url_tag+name_tag+max_rag_intro+max_rag_wbs+max_rag_intro_co+max_rag_wbs_co
 
+        # here you use the other results and get the output result via the decision matrix
         output = decision_matrix_variable(feed_matrix)
 
+        
     else:
 
         print('Enduser spotted')
