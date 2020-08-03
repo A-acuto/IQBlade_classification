@@ -34,6 +34,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * score_intro_sic_codes 
 * score_web_text
 * classification_main
+* datasets
  
 # CODES DESCRIPTION Details
 
@@ -53,3 +54,4 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 * Main code code included
 
+* datasets: code where are stored all the list or sets of words used in the classification, enduser sic code identification. 
