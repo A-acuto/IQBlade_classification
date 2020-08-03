@@ -4,6 +4,7 @@ from pandas.core.common import flatten
 import sys
 import csv
 import json
+import os
 
 # code available
 from webscraper import *
@@ -19,19 +20,20 @@ from cleaning_text import *
 
 #### LOAD DATA ####
 try :
-    with open(data_dir+r'\file.csv', 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
+    file = os.path.join(data_dir, 'file.csv')
+    with open(file, 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
         csv_read = csv.reader(header_test)
         headers = next(csv_read)
 
 
-    data = pd.read_csv(data_dir+r'\file.csv', header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
+    data = pd.read_csv(file, header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
 
     # load the data
     df  = pd.DataFrame(data, columns=headers)
     print('CSV Loaded')
 except:
-
-    df = pd.read_json(data_dir+r'\file.json')
+    file = os.path.join(data_dir, 'file.json')
+    df = pd.read_json(file)
 
     df.fillna(value=' ', inplace= True)
 
