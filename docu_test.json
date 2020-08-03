@@ -1,0 +1,593 @@
+[
+	{
+		"company_number" : "01519547",
+		"company_name" : "OPEN G I LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62012",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.opengi.co.uk",
+		"introduction" : "We are Open GI: market leader in Personal and Commercial General Insurance technology in the UK and Ireland. We support insurance brokers, insurers and MGAs",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02885516",
+		"company_name" : "TIKIT LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.tikit.com",
+		"introduction" : "Legal software for time recording, practice and case management, templates and email marketing. We develop, implement and support our own software.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03991057",
+		"company_name" : "CHESHIRE DATASYSTEMS LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.cdl.co.uk",
+		"introduction" : "Driving innovation: The UK's biggest insurance retailers rely on CDL's trend setting solutions to drive success and growth. Our ambition and commitment has produced a track record of delivering exactly that. The result is a client base that includes so...",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04124314",
+		"company_name" : "CALCULUS SOFTWARE SOLUTIONS LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62012",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.web.findesolutions.com",
+		"introduction" : "Founded in 1999, Calculus is the market-leader providing Advanced Retail Systems, Stock Control, EPOS and eCommerce Web Solutions to the electrical retail industry in both B2C and B2B spaces.&nbsp;\n<br>With head-quarters in Crowborough, East Sussex, Calculus supports systems throughout the UK mainland, Northern Ireland, Scottish Islands and Channel Islands.&nbsp;\n<br>NCompass Advanced Retail is a powerful software package that transforms a standard computer into an easy-to-use system to help you run all aspects of your business. It has been specifically designed for electrical retailers of any size and is available in different editions to suit the needs and budgets of the smallest independent retailer or service business, through to the high demands of large multiple chains and ecommerce businesses.&nbsp;\n<br>Our multi-channels solutions provide the ultimate combination in functionality, ease-of-use and total-cost-of-ownership.&nbsp;\n<br>NCompass Advanced Retail powers hundreds of independant retailers, including a large number of retra members, CIH and Sirius members, along with B2B solutions powering groups.&nbsp;\n<br>Calculus also have many business partners who include; Retra, Star Micronics, Honeywell, Microsoft, AVG, VeriFone and DrayTek.\n<br>Calculus Software Solutions produce the market-leading NCompass Advanced Retail system, which helps you grow your business, boost your reach and improve your efficiency. Every solution includes full implementation support and advice from our retail-experienced consultants, and is backed by our highly-rated support team.&nbsp;\n<br>Our Windows-based software is both powerful and easy to use, covering everything needed by a modern multi-channel business: retail sales, customer database, deliveries, service jobs, installation tracking and billing can all be managed, simply and efficiently, by NCompass.&nbsp;\n<br>Enterprise-level features support the most complex requirements, including BACS, rental/HP and rolling credit, along with eCommerce, telephony and mobile integration services.&nbsp;\n<br>When you’re on the move, our mobile app puts the power of NCompass in your pocket, and our multi-channel support gives you a superb online presence 24/7 through your own site and other stores such as Amazon.&nbsp;\n<br>Year after year NCompass remains the number 1 choice for the modern independent – if you haven’t yet implemented NCompass, contact us to see why so many other dealers have, and how we could benefit your business. If you are already an NCompass user then please join us to see some of the latest and upcoming new products and features.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04286244",
+		"company_name" : "REYNOLDS AND REYNOLDS LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62012",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.itspecialists.uk.com",
+		"introduction" : "<p>Reynolds and Reynolds is a UK-based provider of IT skills and services. The company has been at the forefront of the computer industry since the 1960s and has provided comprehensive hardware maintenance and surround services for over thirty years.</p> \n<p>We’re part of the USA-based Reynolds and Reynolds group, the world’s leading provider of Dealer Management Systems (DMS) and services to the retail motor industry.</p> \n<p>In total, the group employs over 4300 staff worldwide and has operations throughout Europe, Canada and Mexico in addition to those in the UK and United States.</p>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06670962",
+		"company_name" : "CLINICYOU LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "58290",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.clinicyou.com",
+		"introduction" : "Free to try web-based EMR and practice management system. Easy clinic scheduling, invoicing and clinical coding. Feature rich with clinic finance dashboard, clinical document management, patient portal, and built in clinic dictation software.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02117205",
+		"company_name" : "EGTON MEDICAL INFORMATION SYSTEMS LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62012",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.egton.net",
+		"introduction" : "<span>We’re the UK leader in clinical IT systems for joined-up patient care. Our systems are used by over 10,000 healthcare organisations from GP practices to hospitals, pharmacies to community services.</span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02962777",
+		"company_name" : "BRIDGEHEAD SOFTWARE LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62090",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.bridgeheadsoftware.com",
+		"introduction" : "Our&nbsp;Vision \n<p>We are passionate about data and its ability to drive transformational change within healthcare.&nbsp;BridgeHead’s goal is to bring its expertise in data management to modern healthcare systems and to thereby&nbsp;improve patient care.</p> \n<p>Our Approach</p> \n<p><span>For data to be safe and useful throughout its lifecycle, it must have an independence from BOTH the application that creates it AND the storage on which it sits.&nbsp;BridgeHead’s Healthcare Data Management solutions work to provide a transparent layer of data protection and data management that works with all&nbsp;hospital applications and storage hardware, regardless of vendor. In this way data remains fully protected and available to creating application but also can be released for secondary use within the organization.</span><br></p>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "05528381",
+		"company_name" : "LUMEON LTD",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "58290",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.lumeon.com",
+		"introduction" : "Lumeon allows healthcare providers to build and automate measurable, predictable and controlled care pathways, using our Care Pathway Manager software.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "05436117",
+		"company_name" : "HD CLINICAL LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62012",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.hd-clinical.com",
+		"introduction" : "Creators of the Solus® Electronic Clinical Record (ECR). In use across the UK NHS. Built for any specialty, scalable, fully integrated & highly cost effective.",
+		"company_status" : "Active - Accounts Filed"
+	},
+	{
+		"company_number" : "01754990",
+		"company_name" : "SYSTEM C HEALTHCARE LIMITED",
+		"primary_type_id" : "ISV",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.systemc.co.uk",
+		"introduction" : "System C specialises in providing the health and social care sectors with robust, modern IT solutions; exceptional systems implementation expertise; and practicable, innovative consultancy services.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "00690597",
+		"company_name" : "HEWLETT - PACKARD LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.hpe.com",
+		"introduction" : "We help customers use technology to slash the time it takes to turn ideas into value. In turn, they transform industries, markets and lives. Some of our customers run traditional IT environments. Most are transitioning to a secure, cloud-enabled, mobile-friendly infrastructure. Many rely on a combination of both. Wherever they are in that journey, we provide the technology and solutions to help them succeed.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "IE431731",
+		"company_name" : "NOKIA SOLUTIONS AND NETWORKS IRELAND LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "",
+		"financial_year" : 2014,
+		"companyurl" : "http://www.siemens.com",
+		"introduction" : "<span>For more than 165 years, Siemens AG (Berlin and Munich) has stood for innovative strength, a passion for technology, sustainability, responsibility and an uncompromising commitment to quality and excellence. As a globally operating technology company, we’re rigorously leveraging the advantages that our setup provides. To tap business opportunities in both new and established markets, our businesses are bundled into eight divisions and healthcare as well as wind power as separately managed businesses. As of September 30, 2015, we had around 348,000 employees worldwide. Orders totaled €82.3 billion and revenue was €75.6 billion in fiscal 2015. We operate in 289 major production and manufacturing plants worldwide. In addition, we have office buildings, warehouses, research and development facilities or sales offices in almost every country in the world.</span> \n<span> </span>",
+		"company_status" : "Active - Accounts Filed"
+	},
+	{
+		"company_number" : "02998329",
+		"company_name" : "NETAPP UK LTD",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "46510",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.netapp.com",
+		"introduction" : "<span>NetApp creates innovative storage and data management solutions that help accelerate business breakthroughs and deliver outstanding cost efficiency. Our dedication to principles of simplicity, innovation, and customer success has made us one of the fastest-growing storage and data management providers today. Customers around the world choose us for our “go beyond” approach and broad portfolio of solutions for cloud computing, flash storage, business applications, data storage for virtual servers, disk-to-disk backup, and more. Our solutions provide nonstop availability of critical business data and simplify business processes so you can deploy new capabilities with confidence and get to revenue faster than ever before. You can rely on our industry-leading storage and management solutions to lower the cost of protecting your data, business, and reputation. We bring together the industry’s best partners and technology to deliver services that help you maximize what you are getting from your infrastructure. Our collaborative approach, working as one team with one goal, means that you get a storage or data management solution that is just right for you—on time and on budget. To support your global business, we provide highly-responsive support in local languages. From London to Austin, from Bangalore to Tokyo, we’ll work with you to solve your problems and reach your goals.</span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06723148",
+		"company_name" : "VEEAM SOFTWARE UK LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "58290",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.veeam.com",
+		"introduction" : "Welcome to the official Facebook page for Veeam Software! We will keep you updated on product news, promos, events and more. At Veeam, we encourage respectful and meaningful conversations. All constructive feedback, questions and commentaries are welc...",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02051360",
+		"company_name" : "EMC COMPUTER SYSTEMS (U.K.) LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.dellemc.com",
+		"introduction" : "Dell EMC is a part of the Dell Technologies family of brands.&nbsp; Dell Technologies is a unique family of businesses that provides the essential infrastructure for organizations to build their digital future, transform IT and protect their most important asset: information. The company services customers of all sizes across 180 countries – ranging from 98 percent of the Fortune 500 to individual consumers – with the industry's most comprehensive and innovative portfolio from the edge to the core to the cloud. \n<br>",		
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03049861",
+		"company_name" : "AVAYA UK",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "61900",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.avaya.com",
+		"introduction" : "<p>Avaya is a leading global provider of next-generation business collaboration and communications solutions, providing unified communications, real-time video collaboration, contact center,&nbsp;networking&nbsp;and related services to companies of all sizes around the world.</p> \n<p>Avaya helps our customers bring people together with the right information at the right time in the right context, enabling business users to improve their efficiency and quickly solve critical business challenges. Because our solutions are based on open standards, our customers can decide what works best for them. Our objective is to give people the best collaboration experience, regardless of the devices, locations, or media they choose</p> \n<p>Avaya believes technology should enable collaboration.&nbsp; As enterprises move toward a more geographically dispersed, 24x7 workforce, they need tools to enable their users to quickly solve business challenges.&nbsp; Seamless and effective collaboration platforms support this work environment.</p> \n<p>Avaya’s open standards-based platform accommodates customers with multi-vendor environments seeking to use their existing investments, supplement their existing solutions with specific collaboration products they need, and rapidly create and deploy applications. Our solutions allow organizations to develop short- and long-term IT strategies and deploy them at their own pace.&nbsp; Regardless of whether your business consists of 10 employees or 100,000, we can help you to take all your forms of communication and get them working together, to dramatically improve collaboration and accelerate growth. Your company can be more spontaneous and intuitive in communications, more customer-friendly, and ultimately more profitable.</p>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02558939",
+		"company_name" : "CISCO SYSTEMS LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.cisco.co.uk",
+		"introduction" : "<span>Cisco is the worldwide leader in IT that helps companies seize the opportunities of tomorrow by proving that amazing things can happen when you connect the previously unconnected. At Cisco customers come first and an integral part of our DNA is creating long-lasting customer partnerships and working with them to identify their needs and provide solutions that support their success.</span> \n<br> \n<br> \n<span>The concept of solutions being driven to address specific customer challenges has been with Cisco since its inception. Husband and wife Len Bosack and Sandy Lerner, both working for Stanford University, wanted to email each other from their respective offices located in different buildings but were unable to due to technological shortcomings. A technology had to be invented to deal with disparate local area protocols; and as a result of solving their challenge - the multi-protocol router was born.</span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02096520",
+		"company_name" : "SOPHOS LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "62012",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.sophos.co.uk",
+		"introduction" : "We began producing antivirus and encryption products nearly 30 years ago. Today our products help secure the networks used by 100 million people in 150 countries and 100,000 businesses, including Pixar, Under Armour, Northrop Grumman, Xerox, Ford, Avis, and Toshiba. As IT networks grow in complexity, we’re focused on keeping IT security simple and reliable. We know that a proper security strategy must include networks, servers and devices—all devices—managed easily through the cloud.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04912819",
+		"company_name" : "LENOVO TECHNOLOGY (UNITED KINGDOM) LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "26200",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.lenovo.com",
+		"introduction" : "<span>With 50,000+ employees and $43B in global sales in 160 countries, Lenovo is a global leader in providing innovative consumer, commercial and data center technology. As a member of the Fortune Global 500 and Interbrand’s 100 most valuable global brands, Lenovo is bigger and stronger than ever thanks to not only organic growth, but also due to the acquisitions of Motorola Mobility and IBM’s x86 Server business. Our portfolio of high-quality, secure products and services covers PCs (including the legendary Think and multimode YOGA brands), workstations, servers, storage, networking, software (including ThinkSystem and ThinkAgile solutions), smart TVs and a family of mobile products like smartphones (including the Motorola brand), tablets and apps. Our product line includes: ThinkPad, YOGA, Miix, Legion By Lenovo gaming, Ideacentre, Thinkcentre, Moto Z and Moto Mods. Lenovo also has a diverse employee culture. As a true global company, our leaders and employees come from various cultures across the globe. Everyone at Lenovo takes great pride in our ability to attract top talent from diverse backgrounds. We view our differences as a source of strength in building a culture that helps us achieve our goals. </span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "IE159355",
+		"company_name" : "SYMANTEC LIMITED",
+		"primary_type_id" : "Vendor",
+		"sic_text_1" : "",
+		"financial_year" : 2015,
+		"companyurl" : "http://www.symantec.com",
+		"introduction" : "Symantec provides security products and solutions to protect small, medium, and enterprise businesses from advanced threats, malware, and other cyber attacks.",
+		"company_status" : "Active - Accounts Filed"
+	},
+		{
+		"company_number" : "03812106",
+		"company_name" : "J.K. TECHNOSOFT (UK) LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.jktech.com",
+		"introduction" : "We are an IT consulting company offering customized software development &amp; IT services. Contact us for innovative software solutions for your business.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "SC141934",
+		"company_name" : "JABIL CIRCUIT LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "82990",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.jabil.com",
+		"introduction" : "Business disruption across multiple sectors is accelerating at record pace. Getting increasingly innovative products to market quickly, reliably and securely continues to separate winners from losers in markets around the world. And that’s why some of the world’s best-known brands partner with Jabil. Built on a foundation of empowered employees in 102 plants in 28 countries, Jabil focuses on helping customers with the world’s leading global manufacturing and design services.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04371339",
+		"company_name" : "JAPE CONSULTING LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "62020",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.sagecrystaltraining.com",
+		"introduction" : "<span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\"><font size=\"3\">Jape Consulting Ltd specialise in Sage &amp; Crystal Reports, offering Crystal Reports consultancy, training and report writing and Sage training, consultancy and support for your business.  We are Sage and Crystal Reports Experts and Sage Accredited.</font></span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "07764076",
+		"company_name" : "JPI SOURCE LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "96090",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.jpisource.com",
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "07938263",
+		"company_name" : "JOSHTEK LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "62020",
+		"financial_year" : 2015,
+		"companyurl" : "http://www.joshtek.co.uk",
+		"introduction" : "With over 15 years experience of assisting and supporting businesses in the North of England we have built up a solid reputation by offering an honest, up to date and reliable service. Whether your organisation is small or large we have a cost effective and flexible IT support solution for you.  As your business grows and changes, so do your IT requirements. We act as the IT Department for companies who don’t want the expense of managing their own. We are here to ensure your IT system and network runs smoothly and efficiently on a daily basis. ",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06338304",
+		"company_name" : "K3 BTG LIMITED",
+		"primary_type_id" : "Outsourcer",
+		"sic_text_1" : "62090",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.k3btg.co.uk",
+		"introduction" : "K3 Business Technology Group plc is a provider of integrated business solutions. The Company's business solutions encompass Enterprise Resource Planning (ERP) software, Customer Relationship Management (CRM) software, Business Intelligence and e-commer...",
+		"company_status" : "Active"
+	},
+
+	{
+		"company_number" : "05235293",
+		"company_name" : "ZINC DIGITAL BUSINESS SOLUTIONS LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62090",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.zincdigital.com",
+		"introduction" : "Zinc Digital provide a range of Digital Marketing, Technology and Support solutions in Northampton. Contact our team today to find out more.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09078034",
+		"company_name" : "ZION DIGITAL LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62020",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.ziondigital.co.uk",
+				"introduction" : "Zion Digital are a full-service digital agency providing a comprehensive range of services to get your company or brand online and to get it recognised by your clients and prospective clients.  Whether it's your first time or if you're a seasoned campa...",
+		"company_status" : "Active - Accounts Filed"
+	},
+	{
+		"company_number" : "05990932",
+		"company_name" : "ZODIAC INTERNET SOLUTIONS LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62012",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.zodiacinternet.co.uk",
+		"introduction" : "Web design, search engine optimisation and consultancy services to businesses and individuals in Cardiff, Penarth, Barry & throughout Wales and the UK",
+		"company_status" : "Active - Accounts Filed"
+	},
+	{
+		"company_number" : "08380547",
+		"company_name" : "ZODIAC MEDIA LTD",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.zodiacmedia.co.uk",
+				"introduction" : "Zodiac Media is a London-based web design agency that specialises in Drupal and WordPress websites, mobile-friendly designs, Magento eCommerce, and more.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04329403",
+		"company_name" : "ZOLV.COM LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62012",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.zolv.com",
+		"introduction" : "We are a team of web design & development specialists, with over 16 years experience within the travel industry. Find out how we can help you today",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03402993",
+		"company_name" : "ZONE LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "82990",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.zonedigital.com",
+		"introduction" : "<span>Digital is no longer an add-on. It's mission critical to every business in every sector. Our team of strategy, technology and content experts help established businesses define and deliver their digital futures. Recognised by BIMA as its Agency of the Year in 2016 and with more than 220 digital specialists in London, Bristol and Cologne, we offer a unique combination of enterprise-level technology skills, creative excellence and strategic insight, meaning we can deliver anything from award-winning social campaigns to global infrastructure projects and social purpose strategies. All of our experts work in agile, multi-disciplinary teams, collaborating to help our clients think digitally, act nimbly and react instantly.</span>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06686334",
+		"company_name" : "ZONE1 CREATIVE LIMITED",
+		"primary_type_id" : "DigitalAgency",
+		"sic_text_1" : "62020",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.zone1creative.co.uk",
+		"introduction" : "Web design and E-commerce company in Hove, Brighton. We also provide online marketing and web development services. We are a small and friendly team with a wealth of experience.",
+		"company_status" : "Active - Accounts Filed"
+	},
+		{
+		"company_number" : "06620391",
+		"company_name" : "1 FOUR 1 RECRUITMENT LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2019,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06620231",
+		"company_name" : "1 STOP REC LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78109",
+		"financial_year" : 2018,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03901757",
+		"company_name" : "1-1 RECRUITMENT LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.1-1recruitment.co.uk",
+		"introduction" : "1-1 Recruitment are a recruitment agency in Hampshire who strive to connect people with the right jobs for them. Get in touch to see how we can help you.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "05069396",
+		"company_name" : "100% IT RECRUITMENT LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.100itrecruitment.co.uk",
+		"introduction" : "Leading UK IT Recruitment Agency. Competitive fees, expert industry knowledge from 25 years experience. Give us a call for a friendly chat 0844 8794523.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09045107",
+		"company_name" : "101 CARE AND MANAGEMENT LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2019,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09799858",
+		"company_name" : "101I CONSULTANT LTD",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78109",
+		"financial_year" : 2018,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09522042",
+		"company_name" : "111 HEALTHCARE LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2017,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "08989181",
+		"company_name" : "118 RECRUITMENT SOLUTIONS LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2018,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04058529",
+		"company_name" : "12 PLUS UK LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78200",
+		"financial_year" : 2019,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09709813",
+		"company_name" : "121 JOBS LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78109",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.121jobs.co.uk",
+		"introduction" : "Operating in the Admin, IT, Marketing and Care sector; 121 Jobs aims to provide client's with candidates and place candidates with the ideal employer.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09050074",
+		"company_name" : "121 LEGAL RECRUITMENT LIMITED",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78109",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.121legalrecruitment.co.uk",
+		"introduction" : "Legal recruitment Liverpool | Agency for legal jobs Liverpool & Manchester areas| Delivering legal talent throughout the North West UK | 25 years experience",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09460056",
+		"company_name" : "121 SELECT RECRUITMENT LTD",
+		"primary_type_id" : "Recruitment",
+		"sic_text_1" : "78109",
+		"financial_year" : 2018,
+		"companyurl" : null,
+		"introduction" : null,
+		"company_status" : "Active - Accounts Filed"
+	},
+	{
+		"company_number" : "01800000",
+		"company_name" : "BRITISH TELECOMMUNICATIONS PUBLIC LIMITED COMPANY",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.business.bt.com",
+		"introduction" : "Be there for the moments that matter with superfast fibre broadband, TV packages, BT Sport &amp; mobile deals from BT. Discover more about what our products can offer you, manage your account &amp; get help when you need it online today.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03843488",
+		"company_name" : "2 CIRCLES COMMUNICATIONS LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.2circles.com",
+		"introduction" : "2 Circles Communications is an award winning B2B telecoms specialist providing complete telecommunications solutions coupled with best in class service and guaranteed cost savings. \n<br>Our extensive portfolio of products and services covers everything your company needs for communication. \n<br> \n<br>We stay up to date on all the latest technologies, developments and governmental regulations and incentive programmes \n<span>.</span> \n<span><br></span>We live and breathe telecommunications – allowing you to focus on your business knowing your telecoms are in safe hands. \n<br>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04468566",
+		"company_name" : "24 SEVEN COMMUNICATIONS LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.24sevencommunications.com",
+		"introduction" : "24 Seven have been leading the way in telecoms for better business. Providing the latest innovative products and connectivity solutions to our established network of re-sellers and partners since 2002. We have a huge range of Business phone numbers as ...",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03601393",
+		"company_name" : "4COM CUSTOMER SERVICES LTD",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.4com.co.uk",
+		"introduction" : "Here at 4Com, we pride ourselves on delivering business improving telecom solutions and have helped over 10,000 customers in the UK. See how we can help you",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06472696",
+		"company_name" : "4COM NETWORK SERVICES LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.4com.co.uk",
+		"introduction" : "Here at 4Com, we pride ourselves on delivering business improving telecom solutions and have helped over 10,000 customers in the UK. See how we can help you",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "06064445",
+		"company_name" : "500 LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61100",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.500.uk.com",
+		"introduction" : "<p style=\"text-align: left; margin-top: 0.85em; margin-bottom: 0.85em; padding: 0px; border: 0px rgb(225, 225, 225); font-variant-numeric: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);\"><font size=\"3\" face=\"arial\"><strong style=\"margin: 0px; padding: 0px; border: 0px rgb(225, 225, 225); font-style: inherit; font-variant: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: rgb(153, 153, 153);\">500 Ltd</strong>&nbsp;develop innovative cyber secure communications solutions that provide beneficial protection for business telecommunication services.</font></p><p style=\"text-align: left; margin-top: 0.85em; margin-bottom: 0.85em; padding: 0px; border: 0px rgb(225, 225, 225); font-variant-numeric: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);\"><font size=\"3\" face=\"arial\">500 Ltd possess an extensive background in cyber secure communications technology and aim to resolve common challenges faced by customers, by providing simplified, yet powerful telecommunication services with quick and proactive support. We met these challenges by developing cyber secure communications over sip trunk technology.</font></p><p style=\"text-align: left; margin-top: 0.85em; margin-bottom: 0.85em; padding: 0px; border: 0px rgb(225, 225, 225); font-variant-numeric: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);\"><font size=\"3\" face=\"arial\">Our cyber secure communications also protect mobiles.</font></p><p style=\"text-align: left; margin-top: 0.85em; margin-bottom: 0.85em; padding: 0px; border: 0px rgb(225, 225, 225); font-variant-numeric: inherit; font-stretch: inherit; line-height: inherit; vertical-align: baseline; color: rgb(102, 102, 102); background-color: rgb(255, 255, 255);\"><font size=\"3\" face=\"arial\">We actively pursue our development roadmap; intuitively refining our solution based on customer feedback and working with only the most innovative growth Partners like Box™, to create&nbsp;a new standard in cyber secure communication&nbsp;technology – bridging the gap between simple telephony and expansive collaborative environments of tomorrow’s businesses.</font></p>",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03513467",
+		"company_name" : "5G COMMUNICATIONS LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.5gcommunications.co.uk",
+		"introduction" : "5G Communications provides business telecoms services including business broadband, phone system and phone lines UK-wide. Managed IT services also available",		
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "09154870",
+		"company_name" : "VENUE ARCHITECTS LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "71111",
+		"financial_year" : 2016,
+		"companyurl" : "http://www.8x8.co.uk",
+		"introduction" : "At 8x8 we’re big on collaboration. Our customers are too. They rely on our cloud communications to move with speed, agility and ease in a highly competitive, non-stop world. Their astonishing success is the reason behind our continued growth and profitability as a company. Our enterprise ready solutions enable mobility and global connectivity. They empower people to do their best work wherever they need to be. Collaborate effortlessly across distributed locations and offices. And build more rewarding relationships with customers, co-workers and partners.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "02412564",
+		"company_name" : "ABBEY TELECOM LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "60100",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.abbeytelecom.co.uk",
+		"introduction" : "Telephone Systems Installation &amp; Maintenance by a Friendly Family Owned Business. Openreach Communications Provider and Samsung Platinum Partner.",		
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "08865269",
+		"company_name" : "ABI BUSINESS SERVICES LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2019,
+		"companyurl" : "http://www.v4telecom.co.uk",
+		"introduction" :null,
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "04250521",
+		"company_name" : "ABZORB LTD",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "61900",
+		"financial_year" : 2017,
+		"companyurl" : "http://www.abzorb.co.uk",
+		"introduction" : "Abzorb is a national company with a strong presence in the North of England. For over a decade we have been providing telecommunications to businesses and individuals from mobiles, to fixed lines to full network installations.\n<br>We offer products and services via a distribution and reseller business www.abzorb.co.uk with a network of over 250 partners, and our own regional direct sales team.\n<br>At Abzorb we have 4 core areas, mobiles, fixed lines, networks &amp; phone systems we work with you to provide the best solution for your individual needs along with your business.&nbsp; We pride ourselves on offering the latest technology for your business and offer support throughout your agreement with Abzorb.\n<br>Our success is built on our excellent customer service so much so that we have the ability to offer all our services on one bill, we are constantly monitoring and improving our Service Level Agreements with a total of 375 different tasks which we measure our effectiveness to ensure we meet the highest levels of customer service.",
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "05471565",
+		"company_name" : "ABZORB SOLUTIONS LTD",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "99999",
+		"financial_year" : 2015,
+		"companyurl" : "http://www.abzorb.co.uk",
+		"introduction" : "<span style=\"color: rgb(51, 51, 51); font-family: Arial, sans-serif; white-space: pre-wrap;\"><font size=\"2\">Abzorb is a national company with a strong presence in the North of England. For over a decade we have been providing telecommunications to businesses and individuals from mobiles, to fixed lines to full network installations.\r\n\r\nWe offer products and services via a distribution and reseller business www.abzorb.co.uk with a network of over 250 partners, and our own regional direct sales team.\r\n\r\nAt Abzorb we have 4 core areas, mobiles, fixed lines, networks &amp; phone systems we work with you to provide the best solution for your individual needs along with your business.  We pride ourselves on offering the latest technology for your business and offer support throughout your agreement with Abzorb.\r\n\r\nOur success is built on our excellent customer service so much so that we have the ability to offer all our services on one bill, we are constantly monitoring and improving our Service Level Agreements with a total of 375 different tasks which we measure our effectiveness to ensure we meet the highest levels of customer service.</font></span>",		
+		"company_status" : "Active"
+	},
+	{
+		"company_number" : "03321114",
+		"company_name" : "ADA NETWORKS LIMITED",
+		"primary_type_id" : "Telco",
+		"sic_text_1" : "62090",
+		"financial_year" : 2018,
+		"companyurl" : "http://www.adanetworks.com",
+		"introduction" : "A secure network infrastructure is the lifeblood of most organisations. As technology advances mean users demand greater speed and mobility; IT departments are under increasing pressure to deliver a secure and agile&nbsp; infrastructure. \n<br>We work with our clients to design open standards-based infrastructure solutions, so that they can choose the best-in-class solution for their business needs and avoid the financial and technical constraints of vendor lock-in.",		
+		"company_status" : "Active"
+	}
+]
