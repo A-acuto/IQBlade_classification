@@ -26,10 +26,10 @@ def cleaning_text(intro):
     # element and then keep only the most talkative (e.g. > 4 element)
 
     if len(intro_clean) > 200000:    # if words from website more than 100000
-        intro_n=intro_clean[0:200000]
+        intro_clean=intro_clean[0:200000]
 
     # process of cleaning and tokenization
-    tokenlist = nltk.word_tokenize(intro_n)
+    tokenlist = nltk.word_tokenize(intro_clean)
     step1 = list(filter(lambda token: nltk.tokenize.punkt.PunktToken(token).is_non_punct, tokenlist))  # take out punctuation
     step2 = [word.lower() for word in step1] # lower the words
     step3 = list(filter(lambda token: token not in stopwords.words('english'), step2)) # remove stopwords
