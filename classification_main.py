@@ -87,7 +87,7 @@ for i in range(len(sic_codes)):
         url_perc, url_tag, name_perc, name_tag = check_score(score_url_val, score_name_val)
 
         # check the introductions
-        intro_tokens = clean_text(intro)
+        intro_tokens = cleaning_text(intro)
 
         tokens = list(flatten(intro_tokens))
         flags_intro = score_intro_sic_codes(tokens)
@@ -96,7 +96,7 @@ for i in range(len(sic_codes)):
         web_text = webscrape(url)
 
         wb_text = web_text.decode(encoding='UTF-8', errors='strict')
-        wbs_tokens = clean_text(wb_text)
+        wbs_tokens = cleaning_text(wb_text)
 
         tokens_web = list(flatten(wbs_tokens))
         flags_web = score_web_text(tokens_web)
