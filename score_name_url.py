@@ -115,9 +115,7 @@ def check_score(score_url, score_name):
     # same as URL
     if len(idn)>= 1:
         vmax = np.max(score_name[idn])
-        print(vmax)
         id_max = np.where(score_name == vmax)[0]
-        print(id_max)
         perc_val = (vmax-1.)*100
         score_name_per.append(perc_val)
 
