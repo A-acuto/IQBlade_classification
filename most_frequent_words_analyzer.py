@@ -16,6 +16,10 @@ from nltk.corpus  import stopwords
 from nltk.stem  import PorterStemmer
 from nltk.stem  import WordNetLemmatizer
 from nltk.util import ngrams
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 # local codes
 from usefull_tools import *
