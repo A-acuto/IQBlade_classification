@@ -1,5 +1,6 @@
 import numpy as np
 import re
+
 # in this piece of code we have the most frequent and useful functions to do some technical things.
 
 def uniqueIndexes(l):
