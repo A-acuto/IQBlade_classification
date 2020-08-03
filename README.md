@@ -57,4 +57,5 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * datasets: code where are stored all the list or sets of words used in the classification, enduser sic code identification. 
 
 # Code efficiency tests
-- No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 Minutes [single core]
+- No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 minutes [single core]
+- with 20% same results with the same 6 minutes timing
