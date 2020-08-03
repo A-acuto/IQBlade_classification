@@ -1,37 +1,40 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from usefull_tools import *
+import os
 import csv
 import JSON
 from pandas.core.common import flatten
+
 from webscraper import *
 from cleaning_text import *
+from usefull_tools import *
 
 # the basic idea is the same as the INTRO analizer cfr. most_frequent_words_analyzer.py
 # but here we use the webscraper to call from the website URL and then use it to analyze it
 
 ### LOAD DATA ####
 # data_dir #
-data_dir = r'C:\Users\User\Desktop\Placement\iqbladecompanydata'
+#data_dir = r'C:\Users\User\Desktop\Placement\iqbladecompanydata'
 # data = pd.read_csv(data_dir+r'\EXT_C_URL_TEST_UNKNOWN.csv', header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)#,  na_values=['#VALUE!', '#DIV/0!'])
 #df = pd.DataFrame(data, columns=headerx)
 
 
 try :
-    with open(data_dir+r'\file.csv', 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
+    file = os.path.join(data_dir, 'file.csv')
+    with open(file, 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
         csv_read = csv.reader(header_test)
         headers = next(csv_read)
 
 
-    data = pd.read_csv(data_dir+r'\file.csv', header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
+    data = pd.read_csv(file, header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
 
     # load the data
     df  = pd.DataFrame(data, columns=headers)
     print('CSV Loaded')
 except:
-
-    df = pd.read_json(data_dir+r'\file.json')
+    file = os.path.join(data_dir, 'file.json')
+    df = pd.read_json(file)
 
     df.fillna(value=' ', inplace= True)
 
