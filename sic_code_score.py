@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import csv
-import sys
+
 from datasets import *
 
 def check_sic_score(sic):
