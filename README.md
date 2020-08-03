@@ -8,7 +8,7 @@ Python version 3.5, should be compatible with 3.6+ versions. Should also work pr
 The codes available are the text analizer code from introduction (from IQBlade database) and the URL scraped text.
 Then the classification and scoring by SIC codes, names, url, introduction and url.
 
-# updates
+# Updates
 
 Now compatible with Linux and other environments using os to complete the directory and file paths.
 
