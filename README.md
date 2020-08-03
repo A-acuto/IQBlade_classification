@@ -36,6 +36,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * score_web_text
 * classification_main
 * datasets
+* json document to test
  
 # CODES DESCRIPTION Details
 
