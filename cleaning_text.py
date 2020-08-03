@@ -7,6 +7,7 @@ from nltk.stem  import WordNetLemmatizer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 from usefull_tools import *
 from datasets import *
