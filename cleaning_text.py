@@ -4,6 +4,9 @@ from nltk.corpus.reader.plaintext import PlaintextCorpusReader
 from nltk.corpus  import stopwords
 from nltk.stem  import PorterStemmer
 from nltk.stem  import WordNetLemmatizer
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 
 from usefull_tools import *
 from datasets import *
