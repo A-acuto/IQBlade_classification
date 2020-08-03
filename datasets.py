@@ -55,20 +55,20 @@ stopwords_extra = {"0", "span", 'style=color', 'style=color', 'style=white-space
 
 ### URL - NAMES words divided by company type ###  CODE score_name_url.py
 
-recruitment_title_words = ['job', 'hr', 'recruit', 'apprentice', 'placement', 'rec', 'employment', 'employ']
+recruitment_title_words = ['job', 'hr', 'recruit', 'apprentice', 'placement', 'rec', 'employment', 'employ'] # recruitment
 isv_title_words = ['.io', '.ai', 'digital', 'game', 'apps', 'information', 'technolog', 'studio', 'programming',
-                   'software', 'tech', 'soft']
+                   'software', 'tech', 'soft'] #ISV
 telco_title_words = ['tel', 'communication', 'talk', 'phone', 'network', 'tech', 'internet', 'wifi', 'mobile',
-                     'broadband', 'fibre']
-vendor_title_words = ['electronics', 'elec', 'data', 'tech', 'software', 'soft']
-cloud_title_words = ['cyber', 'cloud', '.io', 'tech', 'consult', 'data', 'software', 'soft']
-MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 'host', 'data', 'network', 'soft']
-MS_title_words = ['it', 'data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft']
+                     'broadband', 'fibre'] # Telco
+vendor_title_words = ['electronics', 'elec', 'data', 'tech', 'software', 'soft'] # Vendor
+cloud_title_words = ['cyber', 'cloud', '.io', 'tech', 'consult', 'data', 'software', 'soft'] #CloudConsultant
+MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 'host', 'data', 'network', 'soft'] # MPS
+MS_title_words = ['it', 'data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
 DA_title_words = ['digital', 'web', 'influence', 'soft', 'internet', 'social', 'smart', 'data', 'media', 'creat',
-                  'tel', 'tech', 'seo', 'design', 'agency']
-RS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web']
-DS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web']
-OS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web']
+                  'tel', 'tech', 'seo', 'design', 'agency'] # DigitalAgency
+RS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Reseller
+DS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Distributor
+OS_title_words = ['tech', 'virt', 'net', 'internet', 'compu', 'it', 'data', 'soft', 'web'] # Outsourcer
 
 ##### INTRO - SIC divided common words  for code SCORE_INTRO_SIC_CODES.py #####
 
