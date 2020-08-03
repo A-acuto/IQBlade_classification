@@ -60,4 +60,4 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 # Code efficiency tests
 - No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 minutes [single core]
 - with 20% same results with the same 6 minutes timing
-- in cluster linux : 
+- in cluster linux : same results, but ~9 minutes in working time. single core
