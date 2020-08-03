@@ -12,7 +12,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 * Pandas
 * Matplotlib
 * re
-* NLTK (natural language toolkit)
+* NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code
 * beatifoul soup
 * requests
 
