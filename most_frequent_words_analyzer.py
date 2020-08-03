@@ -7,6 +7,7 @@ import pickle
 from collections import Counter
 import re
 import glob
+import os
 
 # Natural language processing
 import nltk
@@ -26,19 +27,20 @@ from datasets import *   # here are all the sets of words used for cleaning
 # loading the JSON file it's better because it keeps the shape and do not break as a CSV file for the introduction files
 # let's load the data in case of a CSV or a JSON file
 try :
-    with open(data_dir+r'\file.csv', 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
+    file = os.path.join(data_dir, 'file.csv')
+    with open(file, 'r') as header_test:  # Maybe colliding of string versions with ->  encoding="utf8"
         csv_read = csv.reader(header_test)
         headers = next(csv_read)
 
 
-    data = pd.read_csv(data_dir+r'\file.csv', header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
+    data = pd.read_csv(file, header=0,  na_values=['#VALUE!', '#DIV/0!'], error_bad_lines=False)
 
     # load the data
     df  = pd.DataFrame(data, columns=headers)
     print('CSV Loaded')
 except:
-
-    df = pd.read_json(data_dir+r'\file.json')
+    file = os.path.join(data_dir, 'file.json')
+    df = pd.read_json(file)
 
     df.fillna(value=' ', inplace= True)
 
@@ -158,7 +160,8 @@ for i in range(len(index_SIC)):
 # out of the loop
 
 # grep files to be loaded and analyzed
-files= glob.glob(dir+r'\SIC_*_values_'+EXTRA+'.npz')  # * means that loads all the possible SIC CODES available
+outfile =os.path.join(dir, 'SIC_*_values_'+EXTRA+'.npz')
+files= glob.glob(outfile)  # * means that loads all the possible SIC CODES available
 
 
 for x in files:
