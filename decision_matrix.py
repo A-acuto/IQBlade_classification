@@ -1,5 +1,4 @@
 import numpy as np
-import sys
 from collections import Counter
 import pandas as pd
 from pandas.core.common import flatten
