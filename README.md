@@ -53,10 +53,11 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 * score_web_text : as the score intro, but it uses the text scraped form websites for calibration. 
 
-* Main code code included
+* Main code code included, added version to avoid linux-windows-MAC directory issues
 
 * datasets: code where are stored all the list or sets of words used in the classification, enduser sic code identification. 
 
 # Code efficiency tests
 - No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 minutes [single core]
 - with 20% same results with the same 6 minutes timing
+- in cluster linux : 
