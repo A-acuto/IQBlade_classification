@@ -11,6 +11,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 # Updates
 
 Now compatible with Linux and other environments using os to complete the directory and file paths. For python 2.7
+Cleaned the issue with empty url or introduction and the creation of list of list items for the decision matrix and classification
 
 # Required packages:
 * os 
