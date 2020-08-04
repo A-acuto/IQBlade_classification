@@ -60,8 +60,8 @@ isv_title_words = ['.io', '.ai', 'digital', 'game', 'apps', 'information', 'tech
                    'software', 'tech', 'soft'] #ISV
 telco_title_words = ['tel', 'communication', 'talk', 'phone', 'network', 'tech', 'internet', 'wifi', 'mobile',
                      'broadband', 'fibre'] # Telco
-vendor_title_words = ['electronics', 'elec', 'data', 'tech', 'software', 'soft'] # Vendor
-cloud_title_words = ['cyber', 'cloud', '.io', 'tech', 'consult', 'data', 'software', 'soft'] #CloudConsultant
+vendor_title_words = ['electronics', 'elec', 'data', 'tech','software',  'soft', 'solution'] # Vendor
+cloud_title_words = ['cyber', 'cloud', '.io', 'tech', 'consult', 'data', 'software', 'soft', 'solution'] #CloudConsultant
 MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 'host', 'data', 'network', 'soft'] # MPS
 MS_title_words = ['data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
 DA_title_words = ['digital', 'web', 'influence', 'soft', 'internet', 'social', 'smart', 'data', 'media', 'creat',
