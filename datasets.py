@@ -66,7 +66,7 @@ MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 
 MS_title_words = ['data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
 DA_title_words = ['digital', 'web', 'influence', 'soft', 'internet', 'social', 'smart', 'data', 'media', 'creat',
                   'tel', 'tech', 'seo', 'design', 'agency'] # DigitalAgency
-RS_title_words = ['tech', 'net', 'solution', 'compu', 'intel', 'data', 'sol', 'soft'] # Reseller
+RS_title_words = ['tech', 'net', 'solution', 'compu', 'intel', 'data', 'soft'] # Reseller
 DS_title_words = ['tech', 'logic',  'data', 'solut', 'dist'] # Distributor
 OS_title_words = ['tech', 'intel', 'consult', 'compu', 'solut', 'data', 'soft', 'web'] # Outsourcer
 
