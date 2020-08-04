@@ -138,7 +138,7 @@ def check_score_intro(flags):
             id_max = np.where(flags == max_val)[0]
 
             # this is for getting the least likely result
-            min_30 = max_val- max_val*0.25
+            min_30 = max_val- max_val*0.15
 
             id_most_l = np.where(flags >= min_30)[0]
             id_most_m = np.where(flags < max_val)[0]
@@ -169,7 +169,7 @@ def check_score_web_text(flags):
 
             id_max = np.where(flags == max_val)[0]
 
-            min_30 = max_val - max_val * 0.25
+            min_30 = max_val - max_val * 0.15
             id_most_l = np.where(flags >= min_30)[0]
             id_most_m = np.where(flags < max_val)[0]
             id_most = np.intersect1d(id_most_l, id_most_m)
