@@ -123,7 +123,12 @@ for i in range(len(sic_codes)):
 
         # either here or later on we can add an economics module to help disentangle the non unique values 
         feed_matrix = []
-        feed_matrix = tag+ url_tag+name_tag+max_rag_intro+max_rag_wbs+max_rag_intro_co+max_rag_wbs_co
+        test_matrix = [sic_tag, url_tag,name_tag,max_rag_intro,max_rag_wbs,max_rag_intro_co,max_rag_wbs_co,tag_30_intro,tag_30_wbs,tag_30_intro_co,tag_30_wbs_co]
+        
+        # with this procedure I remove all the empty classified values
+        for itag in range(len(test_matrix)):
+            if list(flatten(test_matrix[itag])) != []:
+                feed_matrix.append(test_matrix[itag])
 
         # here you use the other results and get the output result via the decision matrix
         output = decision_matrix_variable(feed_matrix)
