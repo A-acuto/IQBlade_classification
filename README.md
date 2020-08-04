@@ -10,7 +10,7 @@ Then the classification and scoring by SIC codes, names, url, introduction and u
 
 # Updates
 
-Now compatible with Linux and other environments using os to complete the directory and file paths.
+Now compatible with Linux and other environments using os to complete the directory and file paths. For python 2.7
 
 # Required packages:
 * os 
