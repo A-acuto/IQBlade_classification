@@ -151,19 +151,6 @@ def check_score_intro(flags):
             score_30_tag.append(type_comp_max_intro(np.asarray(id_most)))
             # here I have instead added the flags
 
-        else :
-            score_max_per.append(' ')
-            score_30_per.append(' ')
-            score_max_tag.append('0')
-            score_30_tag.append('2')
-
-    else:
-
-        score_max_per.append(' ')
-        score_30_per.append(' ')
-        score_max_tag.append('x')
-        score_30_tag.append('2')
-
     return score_max_per, score_max_tag, score_30_per, score_30_tag
 
 def check_score_web_text(flags):
@@ -192,16 +179,5 @@ def check_score_web_text(flags):
             score_max_tag.append(type_comp_max_web_text(np.asarray(id_max)))
             score_30_tag.append(type_comp_max_web_text(np.asarray(id_most)))
 
-        else :
-            score_max_per.append(' ')
-            score_30_per.append(' ')
-            score_max_tag.append('0')
-            score_30_tag.append('1')
-
-    else :
-        score_max_per.append(' ')
-        score_30_per.append(' ')
-        score_max_tag.append('Y')
-        score_30_tag.append('1')
 
     return score_max_per, score_max_tag, score_30_per, score_30_tag
