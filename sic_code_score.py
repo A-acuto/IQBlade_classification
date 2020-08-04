@@ -121,6 +121,6 @@ def check_sic_score(sic):
         else :  # if it's not a known enduser sic code and it is out of the most common sic codes provided
             score = 5.
             id = -99
-            tag.append(' ')
+            
     return score, id, tag
 
