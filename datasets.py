@@ -63,7 +63,7 @@ telco_title_words = ['tel', 'communication', 'talk', 'phone', 'network', 'tech',
 vendor_title_words = ['electronics', 'elec', 'data', 'tech', 'software', 'soft'] # Vendor
 cloud_title_words = ['cyber', 'cloud', '.io', 'tech', 'consult', 'data', 'software', 'soft'] #CloudConsultant
 MSP_title_words = ['cloud', 'virtual', 'virt', 'tel', 'tech', 'soft', 'server', 'host', 'data', 'network', 'soft'] # MPS
-MS_title_words = ['it', 'data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
+MS_title_words = ['data', 'tel', 'host', 'cyber', 'web', 'tech', 'internet', 'smart', 'soft'] # ManagedServices
 DA_title_words = ['digital', 'web', 'influence', 'soft', 'internet', 'social', 'smart', 'data', 'media', 'creat',
                   'tel', 'tech', 'seo', 'design', 'agency'] # DigitalAgency
 RS_title_words = ['tech', 'net', 'solution', 'compu', 'intel', 'data', 'sol', 'soft'] # Reseller
