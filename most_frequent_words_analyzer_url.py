@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import csv
 import json
+import glob
 from pandas.core.common import flatten
 
 from webscraper import *
