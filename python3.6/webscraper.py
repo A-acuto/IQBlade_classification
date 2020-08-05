@@ -1,7 +1,11 @@
+import requests
+from bs4 import BeautifulSoup
+import re
+import numpy as np
 
 # 3.6 version compatible need to add a couple of details here
 
-def webscrape(companynumber, pages=10):
+def webscrape_company_number(companynumber, pages=10):
     allText = ""
 ​
     try:
