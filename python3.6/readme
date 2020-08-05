@@ -2,3 +2,7 @@ This is a version of the code in python3.6
 
 Files added:
 * datasets since it is just a text file
+
+
+# Code Updates
+ No need to load any particular version of NLTK, just pip the way up
