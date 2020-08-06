@@ -69,10 +69,10 @@ Cleaned the issue with empty url or introduction and the creation of list of lis
 * datasets: code where are stored all the list or sets of words used in the classification, enduser sic code identification. 
 
 # Code efficiency tests
-_Python 3.6
+_Python 3.6_
 - Efficiency up to 83% (40/48 - after fixing empty classification (recruitment). Working on the recalibration of outsourcer and reseller), timing on single core up to 10-11 minutes (due to retrieving links)
 
-_Python 2.7
+_Python 2.7_
 - No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 minutes [single core]
 - with 20% same results with the same 6 minutes timing
 - in cluster linux : same results, but ~9 minutes in working time. single core
