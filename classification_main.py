@@ -133,7 +133,7 @@ for i in range(len(sic_codes)):
 
         # here you use the other results and get the output result via the decision matrix
         output = decision_matrix_variable(feed_matrix)
-
+        print(output, primary_type_0)
         
     else:
 
