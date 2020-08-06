@@ -10,8 +10,10 @@ The codes available are the text analizer code from introduction (from IQBlade d
 Then the classification and scoring by SIC codes, names, url, introduction and url.
 
 # Updates
+Compatible with Linux, windows and MacOS (not Tested)
 
-Now compatible with Linux and other environments using os to complete the directory and file paths. For python 2.7
+Working in python 3.6, with possibilty to switch back to 2.7 if wanted (please note that the webscraper do fail in retrieving the links in the python2.7 version, so the classification it's worst)
+
 Cleaned the issue with empty url or introduction and the creation of list of list items for the decision matrix and classification
 
 # Required packages:
@@ -23,6 +25,7 @@ Cleaned the issue with empty url or introduction and the creation of list of lis
 * NLTK (natural language toolkit) + words databases as PUNKT, wordnet Added in the code - VERSION == 3.4.5 to work on python 2.7 
 * beatifoul soup
 * requests
+* glob (for most common words analyzer)
 
 # Data handler
 * CSV
@@ -66,6 +69,10 @@ Cleaned the issue with empty url or introduction and the creation of list of lis
 * datasets: code where are stored all the list or sets of words used in the classification, enduser sic code identification. 
 
 # Code efficiency tests
+_Python 3.6
+- Efficiency up to 83% (40/48 - after fixing empty classification (recruitment). Working on the recalibration of outsourcer and reseller), timing on single core up to 10-11 minutes (due to retrieving links)
+
+_Python 2.7
 - No 20% most likely in the analysis. 29/48 right, timing on windows pc 6/7 minutes [single core]
 - with 20% same results with the same 6 minutes timing
 - in cluster linux : same results, but ~9 minutes in working time. single core
