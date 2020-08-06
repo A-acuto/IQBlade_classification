@@ -75,7 +75,7 @@ for i in range(len(sic_codes)):
 
 
     # score Sic code and evaluate in case of enduser
-    score_sic, id, tag = check_sic_score(sic)
+    score_sic, id, sic_tag = check_sic_score(sic)
 
 
     # In case the sic score is -99 it is automatically classified as ENDUSER
