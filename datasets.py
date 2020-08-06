@@ -42,7 +42,7 @@ stopwords_JV_HTML = {'ul', 'il', 'li', 'first-child', 'last-child', 'article', '
                      'dt', 'w', 'submit', '400', 'italic', 'bold',
                      'keyframes', 'single', 'window', 'else', 'need', 'get', 'use', '100', 'apply', 'main', 'b', 'band',
                      'would', 'one', 'accordian', ' sit', 'debug',
-                     'layout', 'nh', 'sidebar', 'image', 'propertyquery', '0a', 'menu', 'tag'}
+                     'layout', 'nh', 'sidebar', 'image', 'propertyquery', '0a', 'menu', 'tag', "'https", "'script", 'news'}
 
 
 stopwords_extra = {"0", "span", 'style=color', 'style=color', 'style=white-space', 'p', 'rgba', 'rgb', '51', 'pre-wrap',
