@@ -51,7 +51,7 @@ stopwords_extra = {"0", "span", 'style=color', 'style=color', 'style=white-space
                    'blockquote', 'padding', 'ctimeline', 'plugin', 'wrapper', 'detail', 'head', 'normal',
                    'hover', 'function', 'disabled', 'td', 'tbody', 'important', 'focus', 'h3', 'figure', 'tfoot',
                    'img', 'aside', 'gdpr-dashboard', 'gdpr', 'dashboard', 'structure', 'icon', 'section', 'bordered',
-                   'content'}
+                   'content', '3b', 'row', 'link', 'also'}
 
 ### URL - NAMES words divided by company type ###  CODE score_name_url.py
 
@@ -165,13 +165,13 @@ pool_outsourcer_0 = ['outsourcing', 'management', 'service', 'support', 'organis
                  'hardware', 'outsourcer']  # RS 46510
 
 pool_outsourcer_1 = ['solution', 'management', 'service', 'organisation', 'technical', 'network', 'software', 'hardware',
-                 'outsourcer']  # RS 46510
+                 'outsourcer', 'outsourcing']  # RS 46510
 
 pool_outsourcer_2 = ['solution', 'management', 'organisation', 'service', 'technical', 'network', 'software', 'hardware',
-                 'outsourcer']  # RS 46510
+                 'outsourcer', 'outsourcing']  # RS 46510
 
 pool_outsourcer_3 = ['solution', 'management', 'organisation', 'service', 'technical', 'network', 'software', 'hardware',
-                 'outsourcer']  # RS 46510
+                 'outsourcer', 'outsourcing']  # RS 46510
 
 ###################################################################################################################################
 
@@ -194,7 +194,7 @@ pool_words_DS_ext = ['distributor', 'distribution', 'accessory', 'supply', 'mana
 # outsourcer
 
 pool_words_OS_ext = ['solution', 'service', 'support', 'customer', 'technology', 'network', 'software', 'provide',
-                     'hardware', 'outsourer', 'outsourcing']
+                     'hardware', 'outsourer', 'outsourcing', 'resource']
 
 # Reseller
 pool_words_RS_ext = ['cloud', 'technology', 'infrastructure', 'server', 'industry', 'cyber', 'consultancy', 'sell',
