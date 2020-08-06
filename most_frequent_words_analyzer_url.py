@@ -44,8 +44,6 @@ except:
 
 # whatever CSV or JSON used load the SIC-data
 
-df = pd.read_json(data_dir+r'\BIG_Telco_URL_WBS.json')
-
 SIC = df.sic_text_1
 SIC = SIC.replace(' ', 0)
 SIC = SIC.replace('None Supplied', 0)
@@ -59,7 +57,7 @@ Company_url.fillna(value=0, inplace=True)
 # SIC codes and URL cleaned by none supplied and empty values
 
 # Loop over the companies in the file. Here there is a different because I do not divide by sic CODE. I can do that too.
-
+all_tks =[]
 for i in range(len(Company_url)):
     Curl = Company_url[i]
 
@@ -69,10 +67,11 @@ for i in range(len(Company_url)):
     # due to unicode transformations to make it work fine with the rest of the cleaning process we need
     # to convert it into a UTF-8 decent format, that's why we do this process
 
-    text_decoded = text.decode(encoding='UTF-8',errors='strict')
+    # text decoded not needed in python 3.6
+    #text_decoded = text.decode(encoding='UTF-8',errors='strict')
 
     # Cleaning process
-    tokens = cleaning_text(text_decoded)
+    tokens = cleaning_text(text)
 
     # add the tokens in a list
     all_tks.append(list(flatten(tokens)))
@@ -85,7 +84,7 @@ counts_words = []
 
 # as done for the introduction now it loops over the singular elements and count them
 for toks in range(len(all_tokens.iloc[0])):
-    value_token = all_token[toks].value_counts()
+    value_token = all_tokens[toks].value_counts()
 
     # due to the huge number of elements involved I decided to slice it up.
     # to the 50% of all value token
@@ -119,7 +118,8 @@ title = 'website_most_frequent_words_values_' + EXTRA + '.npz'
 np.savez(title, word_value, words_sorted, dimension)
 
 # grep files to be loaded and analyzed
-files= glob.glob(dir+r'\website_most_frequent_words_values_' + EXTRA + '.npz')  # * means that loads all the possible SIC CODES available
+file = os.path.join('website_most_frequent_words_values_' + EXTRA + '.npz')
+files= glob.glob(file) # * means that loads all the possible SIC CODES available
 
 
 # in case you want to analyze and see it
