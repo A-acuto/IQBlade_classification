@@ -97,8 +97,9 @@ for i in range(len(sic_codes)):
         # out the introduction flags divided by sic codes
         web_text = webscrape(url)
 
-        wb_text = web_text.decode(encoding='UTF-8', errors='strict')
-        wbs_tokens = cleaning_text(wb_text)
+        # the conversion to UTF-8 is not needed in python 3.6 
+        #wb_text = web_text.decode(encoding='UTF-8', errors='strict')
+        wbs_tokens = cleaning_text(web_text)
 
         tokens_web = list(flatten(wbs_tokens))
         flags_web = score_web_text(tokens_web)
