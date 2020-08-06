@@ -1,13 +1,10 @@
 # IQBlade_classification
 IQBlade classification tools 
 
-The code works fine for 3.6 is I do not decode or encode some bits of code. Better checks out and add a couple of if else
-The python version in 2.7, the interpreter was 3.5 but it's all built in with that. Need to rework a couple of things.
-Python version 3.5, should be compatible with 3.6+ versions. Should also work properly in non-windows environment.
-
+The code works fine in python 3.6 
 
 The codes available are the text analizer code from introduction (from IQBlade database) and the URL scraped text.
-Then the classification and scoring by SIC codes, names, url, introduction and url.
+The classification and scoring by SIC codes, names, url, introduction and url (webscraped).
 
 # Updates
 Compatible with Linux, windows and MacOS (not Tested)
