@@ -14,6 +14,7 @@ Working in python 3.6, with possibilty to switch back to 2.7 if wanted (please n
 Cleaned the issue with empty url or introduction and the creation of list of list items for the decision matrix and classification
 
 # Required packages:
+Added a requirement.txt from pip with packages versions.
 * os 
 * Numpy
 * Pandas
