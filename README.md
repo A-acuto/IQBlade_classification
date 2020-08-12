@@ -7,6 +7,8 @@ The codes available are the text analizer code from introduction (from IQBlade d
 The classification and scoring by SIC codes, names, url, introduction and url (webscraped).
 
 # Updates
+Multithreadin available
+
 Compatible with Linux, windows and MacOS (not Tested)
 
 Working in python 3.6, with possibilty to switch back to 2.7 if wanted (please note that the webscraper do fail in retrieving the links in the python2.7 version, so the classification it's worst)
