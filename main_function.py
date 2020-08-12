@@ -21,7 +21,7 @@ import time
 def main_function():
     t0 = time.time()
 #### LOAD DATA ####
-    data_dir = r'C:\Users\User\Desktop\Placement\iqbladecompanydata'
+   # data_dir  is where you have the data
 
     try :
         file = os.path.join(data_dir, 'file.csv')
