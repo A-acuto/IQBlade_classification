@@ -48,6 +48,7 @@ Added a requirement.txt from pip with packages versions.
 * classification_main
 * datasets
 * most_frequent_words_analyzer_url (multiprocess version)
+* most_frequent_words_analyzer_intro (multiprocess version)
 * requirement.txt available with pip packages required
 * json document to test
  
