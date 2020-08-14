@@ -7,7 +7,7 @@ The codes available are the text analizer code from introduction (from IQBlade d
 The classification and scoring by SIC codes, names, url, introduction and url (webscraped).
 
 # Updates
-Multithreadin available
+multiprocessing fro url text available
 
 Compatible with Linux, windows and MacOS (not Tested)
 
@@ -26,6 +26,7 @@ Added a requirement.txt from pip with packages versions.
 * beatifoul soup
 * requests
 * glob (for most common words analyzer)
+* multiprocessing
 
 # Data handler
 * CSV
@@ -46,6 +47,8 @@ Added a requirement.txt from pip with packages versions.
 * score_web_text
 * classification_main
 * datasets
+* most_frequent_words_analyzer_url (multiprocess version)
+* requirement.txt available with pip packages required
 * json document to test
  
 # CODES DESCRIPTION Details
