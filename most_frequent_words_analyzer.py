@@ -164,6 +164,8 @@ for i in range(len(index_SIC)):
 # out of the loop
 
 # grep files to be loaded and analyzed
+# dir is where you saved the npz files. If you do not specify anything they will be saved in the same directory
+# as the code
 outfile =os.path.join(dir, 'SIC_*_values_'+EXTRA+'.npz')
 files= glob.glob(outfile)  # * means that loads all the possible SIC CODES available
 
