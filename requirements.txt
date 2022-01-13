@@ -24,7 +24,7 @@ nltk==3.6.5
 numexpr==2.6.9
 numpy==1.17.0
 pandas==0.25.0+0.gd1accd0.dirty
-pipenv==2020.6.2
+pipenv==2022.1.8
 pyparsing==2.2.0
 python-dateutil==2.8.0
 pytz==2019.1
