@@ -1,7 +1,7 @@
 # IQBlade_classification
 IQBlade classification tools 
 
-The code works fine in python 3.6 
+The code requires python 3.6 
 
 The codes available are the text analizer code from introduction (from IQBlade database) and the URL scraped text.
 The classification and scoring by SIC codes, names, url, introduction and url (webscraped).
