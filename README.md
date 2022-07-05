@@ -7,7 +7,7 @@ The codes available are the text analizer code from introduction (from IQBlade d
 The classification and scoring by SIC codes, names, url, introduction and url (webscraped).
 
 # Updates
-multiprocessing fro url text available
+multiprocessing for url text available
 
 Compatible with Linux, windows and MacOS (not Tested)
 
